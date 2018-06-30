@@ -565,9 +565,12 @@
  }
  
  .picture h4 {
-     text-align: center;
-     padding: 0 30px;
+     text-align: left;
+     width: 90%;
+     padding: 0 10% 0 20%;
      margin-top: 40px;
+     margin-bottom: 40px;
+     color: #222;
  }
  
  .thrPicright {
