@@ -42,11 +42,11 @@
      });
 
      $('.special').click(function() {
-         $(".contentOne").slideToggle('slow');
-         if ($('.clickMe1').text() === '–') {
-             $('.clickMe1').text('+');
+         $(".contentTwo").slideToggle('slow');
+         if ($('.clickMe2').text() === '–') {
+             $('.clickMe2').text('+');
          } else {
-             $('.clickMe1').text('–');
+             $('.clickMe2').text('–');
          }
      });
 

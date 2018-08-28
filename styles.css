@@ -107,7 +107,6 @@
  .right_nav {
      position: relative;
      float: right;
-     margin-top: 40px;
  }
  
  .nav1 a {
@@ -143,7 +142,6 @@
          right: -60px;
          display: block;
          font-size: 3em;
-         top: -22px;
      }
  }
  
@@ -151,23 +149,26 @@
      .nav1.responsive {
          position: relative;
          float: left;
-         margin-right: -60px;
+         margin-right: -80px;
          line-height: 40px;
-         background-color: #74e295;
          margin-top: -60px;
-         padding: 10px 40px 10px 0px;
      }
      .nav1.responsive .icon {
          position: absolute;
          right: 0;
-         top: 0;
-         margin-top: -30px;
      }
      .nav1.responsive a {
+         padding: 0 20px;
          float: none;
          display: block;
          text-align: left;
          color: #666;
+     }
+     .rwdnav {
+         background-color: #74e295;
+         position: relative;
+         right: 20px;
+         top: 40px;
      }
      .nav1.responsive a:hover {
          color: #199b40;
