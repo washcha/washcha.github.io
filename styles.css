@@ -111,7 +111,7 @@
  
  .nav1 a {
      float: left;
-     padding-left: 40px;
+     margin-left: 40px;
      font-weight: 400;
      text-decoration: none;
      display: block;
