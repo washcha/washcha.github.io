@@ -170,6 +170,9 @@
          right: 20px;
          top: 40px;
      }
+     .rwdnav a {
+         margin-left: 10px;
+     }
      .nav1.responsive a:hover {
          color: #199b40;
      }
@@ -345,7 +348,7 @@
      float: left;
  }
  
- .resume {
+ .shortresume {
      float: right;
  }
  
@@ -509,33 +512,14 @@
  /* work 內容的ＣＳＳ*/
  
  .workContent {
-     margin: 120px 0 0 0;
+     margin: 130px 0 0 0;
      padding: 0 30px;
      text-align: center;
      clear: left;
  }
  
- .switch {
-     clear: both;
-     font-family: 'Yantramanav', sans-serif;
-     margin-bottom: 40px;
-     margin-top: 20px;
-     text-align: center;
- }
- 
- .switch a {
-     text-decoration: none;
-     color: #666;
-     padding: 0 5px;
- }
- 
- .switch a:hover {
-     color: #74e295;
- }
- /* switch 結束 */
- 
  .picture {
-     font-family: 'Yantramanav', sans-serif;
+     font-family: 'Helvetica nueu', sans-serif;
      font-weight: 200;
      color: #666;
  }
@@ -552,7 +536,7 @@
  }
  
  .picture h1 {
-     color: #ccc;
+     color: #999;
      font-size: 2em;
      margin-bottom: 5px;
  }

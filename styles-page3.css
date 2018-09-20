@@ -1,300 +1,178 @@
- * {
-     box-sizing: border-box;
-     margin: 0;
-     padding: 0;
- }
- 
- .row::after {
-     content: "";
-     clear: both;
-     display: table;
- }
- /* 全站設定 */
- 
- body {
-     font-size: 14px;
-     font-family: "HelveticaNeue";
-     width: 100%;
-     -webkit-margin-before: 0em;
-     -webkit-margin-after: 0em;
-     -webkit-margin-start: 0px;
-     -webkit-margin-end: 0px;
-     color: #222;
-     height: 100%;
-     margin: 0 0;
- }
- /* For mobile phones: */
- 
- [class*="col-"] {
-     width: 100%;
- }
- 
- @media only screen and (min-width: 600px) {
-     /* For desktop: */
-     .col-1 {
-         width: 8.33%;
-     }
-     .col-2 {
-         width: 16.66%;
-     }
-     .col-3 {
-         width: 25%;
-     }
-     .col-4 {
-         width: 33.33%;
-     }
-     .col-5 {
-         width: 41.66%;
-     }
-     .col-6 {
-         width: 50%;
-     }
-     .col-7 {
-         width: 58.33%;
-     }
-     .col-8 {
-         width: 66.66%;
-     }
-     .col-9 {
-         width: 75%;
-     }
-     .col-10 {
-         width: 83.33%;
-     }
-     .col-11 {
-         width: 91.66%;
-     }
-     .col-12 {
-         width: 100%;
-     }
- }
  /*主欄位*/
  
  .mainbody {
-     font-family: 'Yantramanav', sans-serif;
+     font-family: 'helvetica nueu', sans-serif;
      width: 100%;
  }
- /*heroImage*/
+ 
+ .picture {
+     font-family: 'helvetica nueu', sans-serif;
+     font-weight: 200;
+     color: #666;
+ }
+ 
+ .picture h1 {
+     line-height: 40px;
+ }
+ 
+ .picturep4 {
+     font-family: 'helvetica nueu', sans-serif;
+     font-weight: 200;
+     color: #666;
+     margin-bottom: 30px;
+ }
+ 
+ .picturep5 {
+     font-family: 'helvetica nueu', sans-serif;
+     font-weight: 200;
+     color: #666;
+     margin-bottom: 100px;
+ }
+ 
+ .fristPic img {
+     margin: 50px 0 20px 0;
+     width: 50%;
+ }
+ 
+ .boxshadow {
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+ 
+ .picture h1 {
+     color: #999;
+     font-size: 2em;
+     margin-bottom: 5px;
+ }
+ 
+ .secPicpage006 {
+     margin: 40px 0px 20px 0px;
+ }
+ 
+ .secPicpage2 {
+     margin: 10px -30px 20px -30px;
+     background-color: #f6fcee;
+ }
+ 
+ .trdPicpage2 {
+     margin-top: -20px;
+     margin-bottom: 30px;
+ }
+ 
+ @media screen and (max-width: 600px) {
+     .fristPic img {
+         width: 100%;
+     }
+     .picture h4 {
+         width: 100%;
+         text-align: left;
+         padding: 0 0;
+         margin-top: 40px;
+         margin-bottom: 40px;
+         color: #222;
+     }
+ }
+ /* switch 切換頁 */
+ 
+ .switch {
+     clear: both;
+     font-family: 'helvetica nueu', sans-serif;
+     margin-bottom: 40px;
+     margin-top: 20px;
+     text-align: center;
+ }
+ 
+ .switch a {
+     text-decoration: none;
+     color: #666;
+     padding: 0 5px;
+ }
+ 
+ .switch a:hover {
+     color: #74e295;
+ }
+ /* switch 結束 */
+ 
+ #footer2 {
+     clear: both;
+     background-color: #e3e3e3;
+     height: 30px;
+     bottom: 0px;
+     text-align: center;
+     line-height: 30px;
+     margin-bottom: -50px;
+     font-size: 0.8em;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ /* resume part*/
+ 
+ button[type=submit] {
+     color: #222;
+     padding: 12px 20px;
+     border-radius: 4px;
+     cursor: pointer;
+ }
+ 
+ button[type=submit]:hover {
+     background-color: #74e295;
+ }
+ 
+ .resume {
+     margin-top: 40px;
+     margin-bottom: 100px;
+ }
+ 
+ .resume h1 {
+     margin-bottom: 20px;
+ }
+ /*heroImage
  
  #heroImage {
-     width: 100%;
-     text-align: center;
-     font-size: 3em;
-     font-weight: 200;
- }
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 200;
+}
+
+#heroImage>p {
+    display: none;
+    padding: 0 40px 60px 40px;
+    margin-top: 150px;
+}
+
+#heroImage span {
+    border-bottom: 3px solid #74e295;
+    line-height: 2em;
+}
+
+@media screen and (max-width: 600px) {
+    #heroImage {
+        font-size: 1.8em;
+    }
+    #heroImage>p {
+        padding: 10px 40px 60px 40px;
+    }
+}
  
- #heroImage>p {
-     display: none;
-     padding: 0 40px 60px 40px;
-     margin-top: 150px;
- }
  
- #heroImage span {
-     border-bottom: 3px solid #74e295;
-     line-height: 2em;
- }
  
- @media screen and (max-width: 600px) {
-     #heroImage {
-         font-size: 1.8em;
-     }
-     #heroImage>p {
-         padding: 10px 40px 60px 40px;
-     }
- }
- /*works list i've done*/
  
- .comment {
-     height: 60px;
-     border-bottom: 1px solid #999;
-     margin-bottom: 20px;
-     padding: 0 30px;
-     position: relative;
- }
- 
- .first {
-     height: 60px;
-     display: none;
-     border-bottom: 1px solid #999;
- }
- 
- .titleLeft {
-     float: left;
-     font-size: 1.2em;
-     padding-right: 20px;
- }
- 
- .titleLeft p {
-     font-weight: 400;
-     color: #666;
-     float: left;
-     padding-left: 10px;
-     line-height: 1.2em;
-     font-size: 1.2em;
-     padding-top: 26px;
- }
- 
- .titleLeft p:hover {
-     color: #74e295;
- }
- 
- @media screen and (max-width: 600px) {
-     .titleLeft {
-         font-size: 1em;
-         line-height: 1.2em;
-     }
- }
- /*the + button*/
- 
- .clickMe {
-     font-weight: 200;
-     font-size: 2em;
-     color: #999;
-     float: right;
-     margin-right: 30px;
-     line-height: 1.2em;
-     padding-top: 22px;
- }
- 
- .contentOne {
-     padding: 20px 30px;
-     position: relative;
- }
- /*Works content*/
- 
- .contentOne ul {
-     text-decoration: none;
-     list-style: none;
- }
- 
- li {
-     float: left;
-     padding-right: 30px;
- }
- 
- li a {
-     text-decoration: none;
-     color: #222;
- }
- 
- .worksBox {
-     height: 400px;
-     box-shadow: 3px 6px 8px 3px #e3e3e3;
-     background-color: #fff;
-     border-radius: 5px;
-     margin: 10px 0px 10px 0;
-     padding: 10px 10px;
- }
- 
- .image {
-     width: 100%;
-     height: 260px;
-     background-size: cover;
-     background-color: #999;
-     margin-bottom: 10px;
- }
- 
- .worksBox>p {
-     font-size: 1em;
-     color: #222;
- }
- 
- h5 {
-     font-size: 1em;
-     line-height: 1.2em;
-     margin: 5px 0;
- }
- 
- .infoTag {
-     margin-bottom: 10px;
-     text-align: right;
-     color: #999;
-     font-size: 1em;
- }
- 
- .worksBox:hover {
-     border: 2px solid #74e295;
- }
- /*第二段 自介*/
- 
- .second {
-     clear: both;
-     display: none;
- }
- 
- .myselfleft {
-     float: left;
-     padding-right: 60px;
-     padding-left: 40px;
- }
- 
- .myselfright {
-     float: right;
- }
- /* who 開頭 */
- 
- .selfpic {
-     float: left;
-     width: 180px;
-     height: 180px;
-     margin-right: 10px;
-     background-image: url(image/000me.jpg);
- }
- 
- .rightmyself {
-     margin-top: 5px;
-     text-align: left;
-     list-style-type: none;
- }
- 
- .rightmyself ul {
-     list-style-type: none;
-     line-height: 30px;
-     font-size: 1.2em;
-     -webkit-margin-before: 0em;
-     -webkit-margin-after: 0em;
-     -webkit-margin-start: 0px;
-     -webkit-margin-end: 0px;
-     -webkit-padding-start: 0px;
-     display: inline-grid;
- }
- 
- .aboutme {
-     font-size: 1.2em;
-     line-height: 28px;
-     ;
- }
- 
- .small {
-     font-size: 0.8em;
-     line-height: 20px;
-     width: 40px;
-     border-bottom: 1px solid #666;
-     color: #666;
-     margin-bottom: 2px;
- }
- 
- .big {
-     margin-bottom: 10px;
-     color: #222;
- }
- /*who sns icon*/
+ /*who sns icon
  
  .fa {
-     color: #222;
-     padding-right: 5px;
-     font-size: 13px;
-     width: 16px;
-     text-align: center;
-     text-decoration: none;
-     margin: 5px 5px;
- }
+    color: #222;
+    padding-right: 5px;
+    font-size: 13px;
+    width: 16px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+}
+
+.fa:hover {
+    color: #74e295;
+}
  
- .fa:hover {
-     color: #74e295;
- }
- /* how 開頭 */
- 
+ /*how 開頭 
  .contain_2 p {
      clear: left;
      padding-top: 10px;
@@ -339,132 +217,225 @@
  input[type=submit]:hover {
      background-color: #74e295;
  }
- /* footer */
+
+
+ /*works list i've done
  
- #footer {
-     clear: both;
-     width: 100%;
-     background-color: #e3e3e3;
-     height: 30px;
-     bottom: 0px;
-     text-align: center;
-     line-height: 30px;
-     margin-bottom: -50px;
-     margin-top: 300px;
-     font-size: 0.8em;
-     font-family: Arial, Helvetica, sans-serif;
- }
- /* work 內容的ＣＳＳ*/
+ .comment {
+    height: 60px;
+    border-bottom: 1px solid #999;
+    margin-bottom: 20px;
+    padding: 0 30px;
+    position: relative;
+}
+
+.first {
+    height: 60px;
+    display: none;
+    border-bottom: 1px solid #999;
+}
+
+.titleLeft {
+    float: left;
+    font-size: 1.2em;
+    padding-right: 20px;
+}
+
+.titleLeft p {
+    font-weight: 400;
+    color: #666;
+    float: left;
+    padding-left: 10px;
+    line-height: 1.2em;
+    font-size: 1.2em;
+    padding-top: 26px;
+}
+
+.titleLeft p:hover {
+    color: #74e295;
+}
+
+@media screen and (max-width: 600px) {
+    .titleLeft {
+        font-size: 1em;
+        line-height: 1.2em;
+    }
+}
+/*the + button
+
+.clickMe {
+    font-weight: 200;
+    font-size: 2em;
+    color: #999;
+    float: right;
+    margin-right: 30px;
+    line-height: 1.2em;
+    padding-top: 22px;
+}
+
+.contentOne {
+    padding: 20px 30px;
+    position: relative;
+}
+/*Works content
+
+.contentOne ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+li {
+    float: left;
+    padding-right: 30px;
+}
+
+li a {
+    text-decoration: none;
+    color: #222;
+}
+
+.worksBox {
+    height: 400px;
+    box-shadow: 3px 6px 8px 3px #e3e3e3;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 10px 0px 10px 0;
+    padding: 10px 10px;
+}
+
+.image {
+    width: 100%;
+    height: 260px;
+    background-size: cover;
+    background-color: #999;
+    margin-bottom: 10px;
+}
+
+.worksBox>p {
+    font-size: 1em;
+    color: #222;
+}
+
+h5 {
+    font-size: 1em;
+    line-height: 1.2em;
+    margin: 5px 0;
+}
+
+.infoTag {
+    margin-bottom: 10px;
+    text-align: right;
+    color: #999;
+    font-size: 1em;
+}
+
+.worksBox:hover {
+    border: 2px solid #74e295;
+}
+/*第二段 自介
+
+.second {
+    clear: both;
+    display: none;
+}
+
+.myselfleft {
+    float: left;
+    padding-right: 60px;
+    padding-left: 40px;
+}
+
+.myselfright {
+    float: right;
+}
+/* who 開頭 
+
+.selfpic {
+    float: left;
+    width: 180px;
+    height: 180px;
+    margin-right: 10px;
+    background-image: url(image/000me.jpg);
+}
+
+.rightmyself {
+    margin-top: 5px;
+    text-align: left;
+    list-style-type: none;
+}
+
+.rightmyself ul {
+    list-style-type: none;
+    line-height: 30px;
+    font-size: 1.2em;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+    display: inline-grid;
+}
+
+.aboutme {
+    font-size: 1.2em;
+    line-height: 28px;
+    ;
+}
+
+.small {
+    font-size: 0.8em;
+    line-height: 20px;
+    width: 40px;
+    border-bottom: 1px solid #666;
+    color: #666;
+    margin-bottom: 2px;
+}
+
+.big {
+    margin-bottom: 10px;
+    color: #222;
+}
+/* footer 
+
+#footer {
+    clear: both;
+    width: 100%;
+    background-color: #e3e3e3;
+    height: 30px;
+    bottom: 0px;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: -50px;
+    margin-top: 300px;
+    font-size: 0.8em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* work 內容的ＣＳＳ
+
+.workContent {
+    margin: 120px 0 0 0;
+    padding: 0 30px;
+    text-align: center;
+    clear: left;
+}
+
+.switch {
+    clear: both;
+    font-family: 'Yantramanav', sans-serif;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.switch a {
+    text-decoration: none;
+    color: #666;
+    padding: 0 5px;
+}
+
+.switch a:hover {
+    color: #74e295;
+}
+/* switch 結束 */
  
- .workContent {
-     margin: 120px 0 0 0;
-     padding: 0 30px;
-     text-align: center;
-     clear: left;
- }
- 
- .switch {
-     clear: both;
-     font-family: 'Yantramanav', sans-serif;
-     margin-bottom: 40px;
-     margin-top: 40px;
-     text-align: center;
- }
- 
- .switch a {
-     text-decoration: none;
-     color: #666;
-     padding: 0 5px;
- }
- 
- .switch a:hover {
-     color: #74e295;
- }
- /* switch 結束 */
- 
- .picture {
-     font-family: 'Yantramanav', sans-serif;
-     font-weight: 200;
-     color: #666;
- }
- 
- .picture h1 {
-     line-height: 40px;
- }
- 
- .picturep4 {
-     font-family: 'Yantramanav', sans-serif;
-     font-weight: 200;
-     color: #666;
-     margin-bottom: 30px;
- }
- 
- .picturep5 {
-     font-family: 'Yantramanav', sans-serif;
-     font-weight: 200;
-     color: #666;
-     margin-bottom: 100px;
- }
- 
- .fristPic img {
-     margin: 50px 0 20px 0;
-     width: 50%;
- }
- 
- @media screen and (max-width: 600px) {
-     .fristPic img {
-         width: 60%;
-     }
- }
- 
- .boxshadow {
-     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
- }
- 
- .picture h1 {
-     color: #ccc;
-     font-size: 2em;
-     margin-bottom: 5px;
- }
- 
- .secPicpage006 {
-     margin: 40px 0px 20px 0px;
- }
- 
- .secPicpage2 {
-     margin: 10px -30px 20px -30px;
-     background-color: #f6fcee;
- }
- 
- .trdPicpage2 {
-     margin-top: -20px;
-     margin-bottom: 30px;
- }
- 
- #footer2 {
-     clear: both;
-     background-color: #e3e3e3;
-     height: 30px;
-     bottom: 0px;
-     text-align: center;
-     line-height: 30px;
-     margin-bottom: -50px;
-     font-size: 0.8em;
-     font-family: Arial, Helvetica, sans-serif;
- }
- /* resume part*/
- 
- button[type=submit] {
-     color: #222;
-     padding: 12px 20px;
-     border-radius: 4px;
-     cursor: pointer;
- }
- 
- button[type=submit]:hover {
-     background-color: #74e295;
- }
- 
- .resume {
-     margin-bottom: 40px;
- }
+ */
