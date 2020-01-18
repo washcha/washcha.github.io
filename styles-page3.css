@@ -57,6 +57,17 @@
      margin-top: -20px;
      margin-bottom: 30px;
  }
+ /*轉轉樂頁面的*/
+ .thrPicright {
+    height: 570px;
+    float: right;
+    
+}
+.thrPicLeft {
+    padding-top: 40px;
+    float: left;
+    margin-bottom: 40px;
+}
  
  @media screen and (max-width: 600px) {
      .fristPic img {
@@ -438,4 +449,3 @@ h5 {
 }
 /* switch 結束 */
  
- */
