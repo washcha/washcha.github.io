@@ -310,7 +310,7 @@
  
  @media screen and (max-width: 600px) {
     .smallLi  { float: left;padding-right: 0px;}
-     .image {height:150px;}
+     .image {height:180px;}
 
 }
 
