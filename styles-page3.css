@@ -117,10 +117,12 @@
  /* resume part*/
  
  button[type=submit] {
-     color: #222;
-     padding: 12px 20px;
-     border-radius: 4px;
-     cursor: pointer;
+    color: #222;
+    background-color: white;
+    border-color: #ccc;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
  }
  
  button[type=submit]:hover {
