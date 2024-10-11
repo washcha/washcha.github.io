@@ -128,7 +128,16 @@
  button[type=submit]:hover {
      background-color: #74e295;
  }
- 
+
+@media only screen and (max-width: 600px) {
+    button[type=submit] {
+        color: #222;
+        background-color: white;
+        border-color: #ccc;
+    }
+}
+
+
  .resume {
      margin-top: 40px;
      margin-bottom: 100px;
@@ -137,6 +146,8 @@
  .resume h1 {
      margin-bottom: 20px;
  }
+
+
  /*heroImage
  
  #heroImage {
